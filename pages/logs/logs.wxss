@@ -1,0 +1,9 @@
+.container{
+  background-color: #f5d8d7; /*背景颜色*/
+  height: 100vh; /*页面总高度，vh表示屏幕百分比*/
+  display: flex; /*页面运用弹性盒子布局*/
+  flex-direction: column; /*弹性盒子默认水平排布元素，这里用colum调整为竖直*/
+  justify-content: space-around; /*元素在页面上均匀分布*/
+  align-items: center; /*所有元素水平居中*/
+}
+

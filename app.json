@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/record/record",
+    "pages/map/map",
+    "pages/bulletin/bulletin",
+    "pages/record/pics/pics",
+    "pages/record/text/text"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "HUST-BEEE 1702"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#fbf2eb",
+    "list": [
+      {
+        "text": "班级日志",
+        "pagePath": "pages/record/record",
+        "iconPath": "images/record.png",
+        "selectedIconPath": "images/recordd.png"
+      },
+      {
+        "text": "发布平台",
+        "pagePath": "pages/bulletin/bulletin",
+        "iconPath": "images/bulletin.png",
+        "selectedIconPath": "images/bulletinn.png"
+      },
+      {
+        "text": "班级地图",
+        "pagePath": "pages/map/map",
+        "iconPath": "images/map.png",
+        "selectedIconPath": "images/mapp.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#CDB7B5"
+  }
+}

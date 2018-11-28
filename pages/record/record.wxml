@@ -1,0 +1,12 @@
+<!--pages/record/record.wxml-->
+<view class=".container1">
+<button class='btn1' bindtap='topics'>
+    <image class='btnImg' src='../../images/pic.png'></image>
+    <view>班级相册</view>
+ </button>
+
+  <button class='btn2' bindtap='totext'>
+    <image class='btnImg' src='../../images/text.png'></image>
+    <view>记录点滴</view>
+ </button>
+ </view>
